@@ -1,0 +1,12 @@
+body{
+    background: linear-gradient(green,orange);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#Opcions{
+    text-align: center;
+}
+
+li {
+    list-style:none;
+}

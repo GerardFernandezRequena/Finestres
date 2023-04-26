@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Finestras
+    </title>
+</head>
+
+<body onload="actualizar()">
+    <div id="Opcions">
+        <h1>Opcions per a les Finestres</h1>
+        <ul>
+            <p>- Obrir Finestras</p>
+            <li>
+                <button onclick="obrirFinestra1()">Obrir Finestra 1</button> <button onclick="obrirFinestra2()">Obrir Finestra 2</button>
+            </li>
+            <p>- Selecionar Finestra</p>
+            <li>
+                <button onclick="focusFinestra1()">Cambiar a Finestra 1</button> <button onclick="focusFinestra2()">Cambiar a Finestra 2</button>
+            </li>
+            <p>- Moure la Finestra</p>
+            <li>
+                <button onclick="moure(-20, 0)">Esquerra</button> <button onclick="moure(0, 20)">Abaix</button> <button onclick="moure(0, -20)">Amunt</button> <button onclick="moure(20, 0)">Dreta</button>
+            </li>
+            <p>- Redimensionar la Finestra</p>
+            <li>
+                <button onclick="granFinestra()">+ Gran</button> <button onclick="menysFinestra()">- Petit</button>
+            </li>
+            <p>- Tancar Finestras</p>
+            <li>
+                <button onclick="tancarFinestra1()">Tancar Finestra 1</button> <button onclick="tancarFinestra2()">Tancar Finestra 2</button>
+            </li>
+        </ul>
+    </div>
+</body>
+<script src="windows.js"></script>
+
+</html>
